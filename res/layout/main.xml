@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent" 
+              android:layout_height="fill_parent"
+              android:orientation="vertical" android:weightSum="1">
+    <!--  Opgave 1: a. Definieer een layout (naar eigen keuze) zodat je alle UI 
+                       elementen netjes kunt voorstellen en zodat de samenhorende
+                       elementen bij elkaar staan.
+                    b. Plaats de verschillende widgets met de geschikte padding,
+                       etc. in de verschillende containers. Zorg ervoor dat je
+                       de IDs die je hier kiest, ook gebruikt in Opgave 2, zodat 
+                       de verschillende widgets de applicatie op de correcte 
+                       manier kunnen aansturen. -->
+    <!-- De onderstaande button mag je naar eigen goeddunken plaatsen in een
+         (andere) container, zorg er gewoon voor dat ze zichtbaar blijft zodat
+         je de applicatie netjes kunt afsluiten als je Opgave 2 hebt gemaakt. -->
+    <!-- Spinner voor de verschillende detectoren -->
+    <Spinner android:id="@+id/detectorList"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:prompt="@string/detector_prompt" />                       
+    <Button android:id="@+id/quit" 
+            android:text="Quit" 
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 23
-    buildToolsVersion '25.0.0'
+    compileSdkVersion 22
+    buildToolsVersion '22.0.1'
 
     defaultConfig {
-        applicationId "com.example.jdolan.step_counter"
-        minSdkVersion 15
-        targetSdkVersion 23
+        applicationId "com.arlong.stepcounter"
+        minSdkVersion 19
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
@@ -20,8 +20,14 @@ android {
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     testCompile 'junit:junit:4.12'
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.google.android.gms:play-services-appindexing:8.1.0'
+    compile files('src/main/libs/achartengine-1.1.0.jar')
+    compile 'com.android.support:appcompat-v7:22.2.1'
+    compile 'com.github.PhilJay:MPAndroidChart:v3.0.0-beta1'
+    compile 'com.android.support:design:22.2.1'
+    compile files('libs/ormlite-android-4.49-SNAPSHOT.jar')
+    compile files('libs/ormlite-core-4.49-SNAPSHOT.jar')
+
+    compile project(':sliding_menu')
 }

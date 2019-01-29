@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#BF1010</color>
-    <color name="colorPrimaryDark">#3D070F</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+    <color name="mainBackground">#000</color>
+    <color name="mainForeground">#fff</color>
+    <color name="globalBackground">#000</color>
+    <color name="globalForeground">#ffcccccc</color>
+    <color name="project_site_background">#ffcccccc</color>
+    <color name="popup_text">#000</color>
+    <color name="lightgray">#ddd</color>
+    <color name="button_background">@color/lightgray</color>
 </resources>
