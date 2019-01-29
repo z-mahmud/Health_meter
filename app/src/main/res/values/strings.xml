@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Your Steps</string>
+    <string name="average_step_count">Average Step count:</string>
+    <string name="total_step_count">Total Step count:</string>
+    <string name="back">Back</string>
+    <string name="start">START!</string>
+    <string name="pause">Pause</string>
+    <string name="reset">Reset</string>
+    <string name="history">History</string>
+    <string name="b_start">Start</string>
+    <string name="b_reset">Reset</string>
+    <string name="greencirle">greencirle</string>
+    <string name="view_all">View all</string>
+    <string name="number_of_steps">Number of Steps</string>
+    <string name="total_steps">Total Steps</string>
+    <string name="delete">Delete</string>
+    <string name="delete_by_id">delete by ID</string>
+    <string name="steps">Steps</string>
+    <string name="total_steps1">Total Steps</string>
+    <string name="steps1">Steps</string>
+    <string name="averaging">Averaging</string>
+    <string name="from">From</string>
+    <string name="activities">Activities</string>
+</resources>
